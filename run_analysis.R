@@ -39,6 +39,8 @@ readData <- function(type,features,requiredfeatures){
   d2
 }
 
+#----------------Reading common datasets and required Features extraction------
+
 #load features
 features <- read.csv("UCI HAR Dataset/features.txt",sep = " ",header = FALSE);
 
